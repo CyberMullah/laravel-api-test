@@ -27,5 +27,6 @@ jobs:
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       run: vendor/bin/phpunit
     - name: Change back the database
+      run: |
       env:
           DB_DATABASE: ${{ env.DB_DATABASE }}
