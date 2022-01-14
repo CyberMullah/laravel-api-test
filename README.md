@@ -1,3 +1,3 @@
 ## Simple Laravel API
 
-test
+Remove the test
